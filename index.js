@@ -16,10 +16,12 @@ function johnLennonFacts(arr) {
         newFacts.push(facts[i] + '!!!');
         i++;
     } 
+    if (arr === true) {
     let j = 0
     while (j < arr.length){
       newFacts.push(arr[i] + '!!!')
       j++
+      }
     }
     return newFacts;
 }
