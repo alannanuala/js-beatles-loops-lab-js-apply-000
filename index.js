@@ -17,11 +17,8 @@ function johnLennonFacts(arr) {
         newFacts.push(facts[i] + '!!!');
         arr.push(arr[i] + '!!!')
         i++;
-    }
-    if (arr === undefined) {
-    return newFacts;
-} else { return newFacts + arr
-  }
+    } 
+    return newFacts + arr;
 }
 
 function iLoveTheBeatles(num) {
