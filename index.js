@@ -18,7 +18,7 @@ function johnLennonFacts(arr) {
         arr.push(arr[i] + '!!!')
         i++;
     }
-    if (arr === false) {
+    if (arr === undefined) {
     return newFacts;
 } else { return newFacts + arr
   }
